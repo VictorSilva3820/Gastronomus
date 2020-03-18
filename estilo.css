@@ -1,0 +1,563 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	text-align: center;
+	overflow: auto;
+}
+nav {
+	background: #fff;
+	width: 100%;
+	height: 200px;
+}
+#menu {
+	float: right;
+}
+#menu li {
+	display: inline-block;
+	padding: 90px 30px;
+}
+#menu li a {
+	text-decoration: none;
+	color: #c44d04;
+	font-size: 17px;
+	font-family: 'Montserrat', sans-serif;
+	padding: 20px 10px;
+}
+#menu li a:hover {
+	background: #c44d04;
+	border-radius: 10px;
+	color: white;
+	transition: 0.5s;
+}
+#lg {
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin: 53px 10px;
+}
+#logo{
+	font-family: 'Dancing Script', cursive;
+	font-size: 60px;
+	padding: 60px 20px;
+	float: left;
+	color: #c44d04;
+	font-weight: normal;
+	cursor: pointer;
+	text-decoration: none;
+}
+#massa {
+	width: 100%;
+	height: 800px;
+	background-color:rgba(0,0,0,.2);
+}
+
+#atention {
+	background: url(Imagens/foto1.jpg);
+	width: 100%;
+	height: 800px;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+#logo2 {
+	font-family: 'Dancing Script', cursive;
+	color: white;
+	font-size: 150px;
+	text-align: center;	
+	color: white;
+	text-align: center;	
+	font-weight: bold;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+#sub {
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: 10px;
+	margin-top: 100px;
+	margin-left: 100px;
+	text-align: center;
+}
+#label1 {
+	float: right;
+	font-size: 35px;
+	margin: 65px 60px;
+	display: none;
+	color: #c44d04;
+	border: 1px solid #c44d04;
+	padding: 8px 20px 12px 20px;
+	border-radius: 5px;
+}
+#caixa{
+	display: none;
+}
+#Home {
+	width: 100%;
+	height: 100%; 
+	background: url(Imagens/foto7.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#TituloHome{
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+	margin: 20px;
+	letter-spacing: 10px;
+}
+#pretitulo {
+	font-family: 'Dancing Script', cursive;
+	font-size: 60px;
+	font-weight: bold;
+	margin-top: 50px;
+}
+#conteudo1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	font-weight: bold;
+	background: white;
+	padding: 20px;
+	margin: 50px;
+}
+.gif {
+	display: inline-block;
+	margin-bottom: 100px;
+	margin-top: 50px;
+	text-align: center;
+}
+#gif1 {
+	width: 30%;
+	height: 300px;
+	background: url(Imagens/teste.gif);
+	background-size: cover;
+	background-position: center center;
+}
+#gif2 {
+	width: 30%;
+	height: 300px;
+	background: url(Imagens/teste2.gif);
+	background-size: cover;
+	background-position: center center;
+}
+#gif3 {
+	width: 30%;
+	height: 300px;
+	background: url(Imagens/teste3.gif);
+	background-size: cover;
+	background-position: center center;
+}
+#Quem {
+	background: url(Imagens/foto3.jpg);
+	background-position: center center;
+	background-size: cover; 
+	width: 100%;
+	height: 1000%;
+}
+#TituloQuem {
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+	margin: 20px;
+	letter-spacing: 10px;
+	font-weight: bold;
+	color: white;
+}
+.chef {
+	display: inline-block;
+	margin-top: 50px;
+}
+#chef-1 {
+	width: 30%;
+	height: 500px;
+	background: url(Imagens/chef1.jpg);
+	background-size: cover;
+	background-position: center center;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+#chef-2{
+	width: 30%;
+	height: 500px;
+	background: url(Imagens/chef2.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#chef-3 {
+	width: 30%;
+	height: 500px;
+	background: url(Imagens/chef3.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#nome{
+	width: 100%;
+	margin-top: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	background: black;
+	color: white;
+	letter-spacing: 20px;
+	padding: 20px 0px;
+}
+#nome:hover{
+	background: white;
+	color: black;
+	transition: .5s;
+} 
+#conteudo2{
+	padding: 20px;
+	margin: 50px;
+	font-family: 'Montserrat', sans-serif;
+	background: white;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: justify;
+}
+#galeria {
+	background: url(Imagens/foto10.jpg);
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 1000px;
+}
+#TituloGaleria {
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+	margin: 20px;
+	letter-spacing: 10px;
+	color: white;
+}
+.galeria2_0 {
+        width: 100%;
+        height: 500px;
+        padding: 0;
+        margin: 0px;
+}
+slider {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        overflow: hidden;
+        position: absolute;
+}
+
+slider > * {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 90%;
+        background: transparent;
+        animation: slide 47s infinite;
+        overflow: hidden; 
+}
+
+slide:nth-child(1){
+        left: 0%;
+        animation-delay: -1s;
+        background-image: url(imagens/foto8.jpg);
+        background-size: cover;
+        background-position: center;
+}
+
+slide:nth-child(2){
+        animation-delay: 2s;
+        background-image: url(imagens/foto9.jpg);
+        background-size: cover;
+        background-position: center;
+}
+
+slide:nth-child(3){
+        animation-delay: 3s;
+        background-image: url(imagens/foto10.jpg);
+        background-size: cover;
+        background-position: center;
+}
+slide:nth-child(4){
+        animation-delay: 8s;
+        background-image: url(imagens/rest1.jpg);
+        background-size: cover;
+        background-position: center;
+}
+slide:nth-child(5){
+        animation-delay: 11s;
+        background-image: url(imagens/rest2.jpg);
+        background-size: cover;
+        background-position: center;
+}
+slide:nth-child(6){
+        animation-delay: 14s;
+        background-image: url(imagens/chef3.jpg);
+        background-size: cover;
+        background-position: center;
+}
+slide:nth-child(7){
+        animation-delay: 17s;
+        background-image: url(imagens/chef2.jpg);
+        background-size: cover;
+        background-position: center;
+}
+slide:nth-child(8){
+        animation-delay: 20s;
+        background-image: url(imagens/chef1.jpg)
+        background-position: center;
+}
+slide:nth-child(9){
+        animation-delay: 23s;
+        background-image: url(imagens/rest5.jpg);
+        background-size: cover;
+        background-position: center;
+}
+slide:nth-child(10){
+        animation-delay: 26s;
+        background-image: url(imagens/rest4.jpg);
+        background-size: cover;
+        background-position: center;
+}
+slide:nth-child(11){
+        animation-delay: 29s;
+        background-image: url(imagens/rest3.jpg);
+        background-size: cover;
+        background-position: center;
+}
+slide:nth-child(12){
+        animation-delay: 32s;
+        background-image: url(imagens/foto1.jpg);
+        background-size: cover;
+        background-position: center;
+}
+slide:nth-child(13){
+        animation-delay: 35s;
+        background-image: url(imagens/foto2.jpg);
+        background-size: cover;
+        background-position: center;
+}
+slide:nth-child(14){
+        animation-delay: 38s;
+        background-image: url(imagens/foto3.jpg);
+        background-size: cover;
+        background-position: center;
+}
+slide:nth-child(15){
+        animation-delay: 41s;
+        background-image: url(imagens/foto4.jpg);
+        background-size: cover;
+        background-position: center;
+}
+slide:nth-child(16){
+        animation-delay: 44s;
+        background-image: url(imagens/foto5.jpg);
+        background-size: cover;
+        background-position: center;
+}
+slide:nth-child(17){
+        animation-delay: 47s ;
+        background-image: url(imagens/foto7.jpg);
+        background-size: cover;
+        background-position: center;
+}
+
+@keyframes slide {
+        0% {left: 100%; width: 100%;}
+        5% {left: 0%;}
+        25% {left: 0%;}
+        30% {left: -100%; width: 100%;}
+        30.0001% {left:-100%; width: 0%;}
+        100% {left: 100%; width: 0}
+
+}
+#Restaurantes {
+	background: url(Imagens/foto6.jpg);
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+#TituloRestaurante {
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+	margin: 20px;
+	letter-spacing: 10px;
+	color: white;
+}
+#rests {
+	height: 100%;
+	margin: 50px;
+	background: white;
+}
+#conteudorest1 {
+	margin: 50px;
+	background: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-align: justify;
+	font-size: 20px;
+}
+#fotorest1{
+	height: 300px;
+	background: url(Imagens/rest1.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+#fotorest2{
+	height: 300px;
+	background: url(Imagens/rest2.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+#fotorest3{
+	height: 300px;
+	background: url(Imagens/rest3.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+#fotorest4{
+	height: 300px;
+	background: url(Imagens/rest4.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+#fotorest5{
+	height: 300px;
+	background: url(Imagens/rest5.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+#contate {
+	background: url(Imagens/foto9.jpg);
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 1000px;
+	position: relative;
+}
+#TituloContate {
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+	margin: 20px;	
+	letter-spacing: 10px;
+	color: white;
+	font-weight: bold;
+}
+#avalie {
+	font-size: 80px;
+	font-family: 'Dancing Script', cursive;
+	color: white;
+}
+#formulario {
+	position: absolute;
+	top: 30%;
+	left: 30%;
+}
+#name {
+	background: transparent;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	border-bottom: 5px solid white;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+	padding: 5px;
+}
+#name:hover {
+	background: rgba(255,255,255,.2);
+	color: black;
+	transition: .5s;
+}
+#email {
+	background: transparent;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	border-bottom: 5px solid white;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+	padding: 5px;
+	margin-top: 20px;
+}
+#email:hover {
+	background: rgba(255,255,255,.2);
+	color: black;
+	transition: .5s;
+}
+textarea {
+	background: rgba(255,255,255,.2);
+	border: none;
+	outline: none;
+	font-size: 20px;
+	border: 5px solid white;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+	padding: 5px;
+	margin-top: 20px;
+}
+#enviar {
+	background: green;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+	padding: 5px;
+	margin-top: 20px;
+	letter-spacing: 20px;
+	cursor: pointer;
+}
+::placeholder {
+	color: white;
+}
+footer {
+	width: 100%;
+	height: 100px;
+	padding-top: 80px;
+	background: black;
+	color: white;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+@media only screen and (max-width: 1382px) {
+	#menu {
+		width: 100%;
+		text-align: center;
+		display: none;
+	}
+	#menu li{
+		padding: 50px 20px;
+		width: 100%;
+		display: inline-block;
+		background: white;
+		border-bottom: 1px solid #c44d04;
+	}
+	#menu li a {
+		color: #c44d04;
+		font-size: 30px;
+	}
+	#menu li a:hover {
+		background: #c44d04;
+		color: white;
+	}
+	#label1 {
+		display: block;
+		cursor: pointer;
+	}
+	#caixa:checked + #menu {
+		display: block;
+	}
+	#lg {
+		display: none;
+	}
+}
